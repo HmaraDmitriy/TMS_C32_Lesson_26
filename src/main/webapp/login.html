@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login or Register</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="login-body-div">
+<h1>Log in or Register:</h1>
+<form action="auth" method="POST">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+        <button type="submit" name="action" value="login" id="login-button">Login</button>
+        <button type="submit" name="action" value="register" id="register-button">Registration</button>
+    </div>
+</form>
+</body>
+</html>
