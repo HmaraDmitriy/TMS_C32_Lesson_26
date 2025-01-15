@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>by.tms</groupId>
-  <artifactId>todo-list-c32</artifactId>
+  <artifactId>TMS_C32_Lesson_26</artifactId>
   <packaging>war</packaging>
   <version>1.0.0</version>
-  <name>todo-list-c32 Maven Webapp</name>
+  <name>TMS_C32_Lesson_26 Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
@@ -17,6 +17,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>todo-list-c32</finalName>
+    <finalName>TMS_C32_Lesson_26</finalName>
   </build>
 </project>
